@@ -1,0 +1,23 @@
+@font-face {
+    font-family: PressStart2P;
+    src: url(../fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/Open_Sans/OpenSans-Italic-VariableFont_wdth\,wght.ttf)
+}
+
+/* Estilos Generales */
+*{
+    font-family: OpenSans;
+    color: #ffffff;
+}
+
+body{
+    background-image: url(../img/assets/background.webp);
+    background-size: cover;
+}
+
+.logo{
+    height: 50px;
+}
