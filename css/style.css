@@ -11,13 +11,61 @@
 *{
     font-family: OpenSans;
     color: #ffffff;
+    font-size: 25px;
 }
 
 body{
     background-image: url(../img/assets/background.webp);
     background-size: cover;
 }
-
-.logo{
+.logoNav{
     height: 50px;
+}
+
+/* Index */
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+
+}
+.logo{
+    width: 70%;
+}
+.eslogan{
+    font-family: OpenSans;
+    font-size: 30px;
+    text-align: center;
+}
+
+.topVendidos{
+    text-align: center;
+    padding: 10px;
+}
+.gridTopVendidos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.tarjeta{
+    border: 2px solid #6c5ce7;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tarjeta img{
+    width: 90%;
+    border: 2px solid #6c5ce7;
+}
+.nombreJuego{
+    margin-top: 2px;
+    color: #00cec9;
+}
+
+@media (max-width: 768px) {
+  .gridTopVendidos {
+    grid-template-columns: 1fr;
+  }
 }
