@@ -105,3 +105,34 @@ body{
     color:#6c5ce7;
     background-color: #00cec9;
 }
+
+/* Contacto */
+.formularioContacto{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #6c5ce77e;
+    border: 2px solid #6c5ce7;
+    justify-content: center;
+}
+.formularioContacto label{
+    margin: 5px;
+    color: #6c5ce7;
+}
+.formularioContacto input, .formularioContacto textarea{
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #6c5ce7;
+    background-color: #00cec9;
+}
+.formularioContacto button{
+    margin-top: 15px;
+    color:#00cec9;
+    background-color: #6c5ce7;
+}
+.formularioContacto button:hover{
+    color:#6c5ce7;
+    background-color: #00cec9;
+}
