@@ -153,6 +153,9 @@ body{
   .gridTopVendidos {
     grid-template-columns: 1fr;
   }
+  .tarjetaCatalogo{
+    width: 80%;
+  }
   .novedad{
     width: 100%;
   }
