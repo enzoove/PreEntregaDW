@@ -68,12 +68,6 @@ body{
     color: #00cec9;
 }
 
-@media (max-width: 768px) {
-  .gridTopVendidos {
-    grid-template-columns: 1fr;
-  }
-}
-
 /* Productos */
 .catalogo{
     display: flex;
@@ -135,4 +129,31 @@ body{
 .formularioContacto button:hover{
     color:#6c5ce7;
     background-color: #00cec9;
+}
+
+/* Novedades */
+.novedades{
+    display: flex;
+    flex-wrap: wrap;
+}
+.novedad{
+    border: 1px #6c5ce7 solid;
+    box-sizing: border-box;
+    width: 50%;
+}
+.novedad h2{
+    color: #6c5ce7;
+}
+.novedad h3{
+    color:#00cec9;
+    font-size: 18pt;
+}
+
+@media (max-width: 768px) {
+  .gridTopVendidos {
+    grid-template-columns: 1fr;
+  }
+  .novedad{
+    width: 100%;
+  }
 }
